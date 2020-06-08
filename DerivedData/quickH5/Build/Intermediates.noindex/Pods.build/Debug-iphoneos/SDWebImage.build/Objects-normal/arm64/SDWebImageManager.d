@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.m \
+  /Users/welcommand/Desktop/quickH5/Pods/Target\ Support\ Files/SDWebImage/SDWebImage-prefix.pch \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloader.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Private/SDAssociatedObject.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Core/SDWebImageError.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.h \
+  /Users/welcommand/Desktop/quickH5/Pods/SDWebImage/SDWebImage/Private/SDmetamacros.h

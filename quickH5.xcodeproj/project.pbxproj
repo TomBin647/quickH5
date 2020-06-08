@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1DF0DB24887E1E00965948 /* DiskFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DF0DA24887E1E00965948 /* DiskFileCache.m */; };
 		2DBD52DA2487694600DBE50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD52D92487694600DBE50C /* AppDelegate.m */; };
-		2DBD52DD2487694600DBE50C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD52DC2487694600DBE50C /* SceneDelegate.m */; };
 		2DBD52E02487694600DBE50C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD52DF2487694600DBE50C /* ViewController.m */; };
 		2DBD52E32487694600DBE50C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBD52E12487694600DBE50C /* Main.storyboard */; };
 		2DBD52E52487694900DBE50C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBD52E42487694900DBE50C /* Assets.xcassets */; };
@@ -16,6 +16,15 @@
 		2DBD52EB2487694900DBE50C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD52EA2487694900DBE50C /* main.m */; };
 		2DBD52F52487694A00DBE50C /* quickH5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD52F42487694A00DBE50C /* quickH5Tests.m */; };
 		2DBD53002487694A00DBE50C /* quickH5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD52FF2487694A00DBE50C /* quickH5UITests.m */; };
+		2DBD530F2487697000DBE50C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD530E2487697000DBE50C /* WebKit.framework */; };
+		2DBD531524876B9800DBE50C /* WebViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD531424876B9800DBE50C /* WebViewReusePool.m */; };
+		2DBD531824876F4300DBE50C /* ReuseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD531724876F4300DBE50C /* ReuseWebView.m */; };
+		2DBD53212487776400DBE50C /* CustomURLSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD53202487776400DBE50C /* CustomURLSchemeHandler.m */; };
+		2DBD53272487855100DBE50C /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD53262487855100DBE50C /* NSString+Util.m */; };
+		2DBD53292487874E00DBE50C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD53282487874E00DBE50C /* CoreServices.framework */; };
+		2DBD532C24878E9A00DBE50C /* MemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD532B24878E9A00DBE50C /* MemoryCache.m */; };
+		2DBD53302487AE4000DBE50C /* H5ResourceCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD532F2487AE4000DBE50C /* H5ResourceCache.m */; };
+		E9C2F9CF3D63C2BED624A030 /* libPods-quickH5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7555DEB38D759951DF6B8884 /* libPods-quickH5.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AD891270866A34E25FBF2CF /* Pods-quickH5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickH5.debug.xcconfig"; path = "Target Support Files/Pods-quickH5/Pods-quickH5.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1DF0D924887E1E00965948 /* DiskFileCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiskFileCache.h; sourceTree = "<group>"; };
+		2D1DF0DA24887E1E00965948 /* DiskFileCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiskFileCache.m; sourceTree = "<group>"; };
 		2DBD52D52487694600DBE50C /* quickH5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickH5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBD52D82487694600DBE50C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DBD52D92487694600DBE50C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2DBD52DB2487694600DBE50C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2DBD52DC2487694600DBE50C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2DBD52DE2487694600DBE50C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2DBD52DF2487694600DBE50C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2DBD52E22487694600DBE50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +64,23 @@
 		2DBD52FB2487694A00DBE50C /* quickH5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickH5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBD52FF2487694A00DBE50C /* quickH5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quickH5UITests.m; sourceTree = "<group>"; };
 		2DBD53012487694A00DBE50C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBD530E2487697000DBE50C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2DBD531324876B9800DBE50C /* WebViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewReusePool.h; sourceTree = "<group>"; };
+		2DBD531424876B9800DBE50C /* WebViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewReusePool.m; sourceTree = "<group>"; };
+		2DBD531624876F4300DBE50C /* ReuseWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReuseWebView.h; sourceTree = "<group>"; };
+		2DBD531724876F4300DBE50C /* ReuseWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReuseWebView.m; sourceTree = "<group>"; };
+		2DBD531F2487776400DBE50C /* CustomURLSchemeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomURLSchemeHandler.h; sourceTree = "<group>"; };
+		2DBD53202487776400DBE50C /* CustomURLSchemeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomURLSchemeHandler.m; sourceTree = "<group>"; };
+		2DBD53252487855100DBE50C /* NSString+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		2DBD53262487855100DBE50C /* NSString+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		2DBD53282487874E00DBE50C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		2DBD532A24878E9A00DBE50C /* MemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryCache.h; sourceTree = "<group>"; };
+		2DBD532B24878E9A00DBE50C /* MemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryCache.m; sourceTree = "<group>"; };
+		2DBD532D2487ABE700DBE50C /* CacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheProtocol.h; sourceTree = "<group>"; };
+		2DBD532E2487AE4000DBE50C /* H5ResourceCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H5ResourceCache.h; sourceTree = "<group>"; };
+		2DBD532F2487AE4000DBE50C /* H5ResourceCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5ResourceCache.m; sourceTree = "<group>"; };
+		7555DEB38D759951DF6B8884 /* libPods-quickH5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quickH5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D25917FE41BF7B16A50EC77 /* Pods-quickH5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickH5.release.xcconfig"; path = "Target Support Files/Pods-quickH5/Pods-quickH5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBD53292487874E00DBE50C /* CoreServices.framework in Frameworks */,
+				2DBD530F2487697000DBE50C /* WebKit.framework in Frameworks */,
+				E9C2F9CF3D63C2BED624A030 /* libPods-quickH5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE592757BA890DDFE4326AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AD891270866A34E25FBF2CF /* Pods-quickH5.debug.xcconfig */,
+				8D25917FE41BF7B16A50EC77 /* Pods-quickH5.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2DBD52CC2487694600DBE50C = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +127,8 @@
 				2DBD52F32487694A00DBE50C /* quickH5Tests */,
 				2DBD52FE2487694A00DBE50C /* quickH5UITests */,
 				2DBD52D62487694600DBE50C /* Products */,
+				2DBD530D2487697000DBE50C /* Frameworks */,
+				0AE592757BA890DDFE4326AA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +147,23 @@
 			children = (
 				2DBD52D82487694600DBE50C /* AppDelegate.h */,
 				2DBD52D92487694600DBE50C /* AppDelegate.m */,
-				2DBD52DB2487694600DBE50C /* SceneDelegate.h */,
-				2DBD52DC2487694600DBE50C /* SceneDelegate.m */,
 				2DBD52DE2487694600DBE50C /* ViewController.h */,
 				2DBD52DF2487694600DBE50C /* ViewController.m */,
+				2DBD531324876B9800DBE50C /* WebViewReusePool.h */,
+				2DBD531424876B9800DBE50C /* WebViewReusePool.m */,
+				2DBD531624876F4300DBE50C /* ReuseWebView.h */,
+				2DBD531724876F4300DBE50C /* ReuseWebView.m */,
+				2DBD531F2487776400DBE50C /* CustomURLSchemeHandler.h */,
+				2DBD53202487776400DBE50C /* CustomURLSchemeHandler.m */,
+				2DBD532D2487ABE700DBE50C /* CacheProtocol.h */,
+				2DBD532A24878E9A00DBE50C /* MemoryCache.h */,
+				2DBD532B24878E9A00DBE50C /* MemoryCache.m */,
+				2DBD532E2487AE4000DBE50C /* H5ResourceCache.h */,
+				2DBD532F2487AE4000DBE50C /* H5ResourceCache.m */,
+				2D1DF0D924887E1E00965948 /* DiskFileCache.h */,
+				2D1DF0DA24887E1E00965948 /* DiskFileCache.m */,
+				2DBD53252487855100DBE50C /* NSString+Util.h */,
+				2DBD53262487855100DBE50C /* NSString+Util.m */,
 				2DBD52E12487694600DBE50C /* Main.storyboard */,
 				2DBD52E42487694900DBE50C /* Assets.xcassets */,
 				2DBD52E62487694900DBE50C /* LaunchScreen.storyboard */,
@@ -137,6 +191,16 @@
 			path = quickH5UITests;
 			sourceTree = "<group>";
 		};
+		2DBD530D2487697000DBE50C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBD53282487874E00DBE50C /* CoreServices.framework */,
+				2DBD530E2487697000DBE50C /* WebKit.framework */,
+				7555DEB38D759951DF6B8884 /* libPods-quickH5.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DBD53042487694A00DBE50C /* Build configuration list for PBXNativeTarget "quickH5" */;
 			buildPhases = (
+				E6E32F872CAC999563B2DDDD /* [CP] Check Pods Manifest.lock */,
 				2DBD52D12487694600DBE50C /* Sources */,
 				2DBD52D22487694600DBE50C /* Frameworks */,
 				2DBD52D32487694600DBE50C /* Resources */,
@@ -262,15 +327,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E6E32F872CAC999563B2DDDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quickH5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DBD52D12487694600DBE50C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBD531524876B9800DBE50C /* WebViewReusePool.m in Sources */,
 				2DBD52E02487694600DBE50C /* ViewController.m in Sources */,
+				2DBD53302487AE4000DBE50C /* H5ResourceCache.m in Sources */,
 				2DBD52DA2487694600DBE50C /* AppDelegate.m in Sources */,
+				2DBD53272487855100DBE50C /* NSString+Util.m in Sources */,
+				2D1DF0DB24887E1E00965948 /* DiskFileCache.m in Sources */,
+				2DBD53212487776400DBE50C /* CustomURLSchemeHandler.m in Sources */,
+				2DBD531824876F4300DBE50C /* ReuseWebView.m in Sources */,
 				2DBD52EB2487694900DBE50C /* main.m in Sources */,
-				2DBD52DD2487694600DBE50C /* SceneDelegate.m in Sources */,
+				2DBD532C24878E9A00DBE50C /* MemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,11 +533,13 @@
 		};
 		2DBD53052487694A00DBE50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD891270866A34E25FBF2CF /* Pods-quickH5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX5XC6S3UM;
 				INFOPLIST_FILE = quickH5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +552,13 @@
 		};
 		2DBD53062487694A00DBE50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D25917FE41BF7B16A50EC77 /* Pods-quickH5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MX5XC6S3UM;
 				INFOPLIST_FILE = quickH5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

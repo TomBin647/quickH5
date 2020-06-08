@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>44B85A46-323C-4D67-BB5D-D9FA03F47785</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>44B85A46-323C-4D67-BB5D-D9FA03F47785.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>quickH5 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>quickH5</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build quickH5</string>
+			<key>timeStartedRecording</key>
+			<real>612944440.41355205</real>
+			<key>timeStoppedRecording</key>
+			<real>612944441.37719405</real>
+			<key>title</key>
+			<string>Build quickH5</string>
+			<key>uniqueIdentifier</key>
+			<string>44B85A46-323C-4D67-BB5D-D9FA03F47785</string>
+		</dict>
+		<key>8CA701C4-ACAA-429C-BAA6-1728DB2DF46C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8CA701C4-ACAA-429C-BAA6-1728DB2DF46C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>quickH5 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>quickH5</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build quickH5</string>
+			<key>timeStartedRecording</key>
+			<real>612951810.57623196</real>
+			<key>timeStoppedRecording</key>
+			<real>612951835.18889701</real>
+			<key>title</key>
+			<string>Build quickH5</string>
+			<key>uniqueIdentifier</key>
+			<string>8CA701C4-ACAA-429C-BAA6-1728DB2DF46C</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/welcommand/Desktop/quickH5/quickH5/CustomURLSchemeHandler.m \
+  /Users/welcommand/Desktop/quickH5/quickH5/CustomURLSchemeHandler.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFNetworking.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFCompatibilityMacros.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h \
+  /Users/welcommand/Desktop/quickH5/quickH5/H5ResourceCache.h \
+  /Users/welcommand/Desktop/quickH5/quickH5/NSString+Util.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDWebImageManager.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDWebImageCompat.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDWebImageOperation.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDImageCacheDefine.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDWebImageDefine.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDImageLoader.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDImageTransformer.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/UIImage+Transform.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDWebImageCacheKeyFilter.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDWebImageCacheSerializer.h \
+  /Users/welcommand/Desktop/quickH5/Pods/Headers/Public/SDWebImage/SDWebImageOptionsProcessor.h
